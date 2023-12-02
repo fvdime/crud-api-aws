@@ -1,4 +1,9 @@
 {
   "name": "api-aws",
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.465.0",
+    "@aws-sdk/util-dynamodb": "^3.465.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
 }
